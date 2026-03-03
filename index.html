@@ -54,6 +54,59 @@
       text-align: center;
       border-radius: 10px;
     }
+      body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5EFE6;
+    color: #4A3F35;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .section {
+    padding: 80px 0;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+  }
+
+  /* Hover para secciones terracota */
+  .bg-terracota:hover {
+    background-color: #BD6B4F; /* más intenso */
+    transform: translateY(-3px); /* ligero efecto de elevación */
+  }
+
+  /* Hover para secciones beige */
+  .bg-beige:hover {
+    background-color: #E3CFAF; /* un tono más fuerte */
+    transform: translateY(-3px);
+  }
+
+  /* Hover para secciones sin color definido */
+  .section:not(.bg-beige):not(.bg-terracota):hover {
+    background-color: #f0e8d9; /* un ligero cambio sobre el fondo por defecto */
+    transform: translateY(-3px);
+  }
+
+  .btn-brand {
+    background-color: #A26749;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+
+  .color-box {
+    height: 120px;
+    border-radius: 10px;
+  }
+
+  .logo-box {
+    border: 2px dashed #A26749;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+  }
+    
   </style>
 </head>
 
@@ -76,7 +129,7 @@
         <p>Glow Skin es una marca de skincare inspirada en la naturaleza y el equilibrio femenino. Fusionamos ciencia y botánica para crear productos elegantes y efectivos.</p>
       </div>
       <div class="col-md-6">
-        <img src="https://via.placeholder.com/500x400" class="img-fluid rounded" alt="Skincare">
+        <img src="/imagenes/glw skin-horizontal.png" class="img-fluid rounded" alt="Skincare">
       </div>
     </div>
   </div>
